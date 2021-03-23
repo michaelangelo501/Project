@@ -63,6 +63,16 @@ namespace LVAPV07.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap scorpion {
+            get {
+                object obj = ResourceManager.GetObject("scorpion", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap WhatsApp_Image_2021_02_13_at_3_04_43_PM {
             get {
                 object obj = ResourceManager.GetObject("WhatsApp Image 2021-02-13 at 3.04.43 PM", resourceCulture);

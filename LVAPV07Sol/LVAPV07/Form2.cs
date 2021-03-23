@@ -16,5 +16,31 @@ namespace LVAPV07
         {
             InitializeComponent();
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bttup_Click(object sender, EventArgs e)
+        {
+            pctScorpion.Location = new Point(pctScorpion.Location.X, pctScorpion.Location.Y - 1);
+        }
+
+        private void bttderecha_Click(object sender, EventArgs e)
+        {
+            pctScorpion.Location = new Point(pctScorpion.Location.X + 1, pctScorpion.Location.Y);
+        }
+
+        private void bttAbajo_Click(object sender, EventArgs e)
+        {
+            pctScorpion.Location = new Point(pctScorpion.Location.X, pctScorpion.Location.Y + 1);
+        }
+
+        private void bttizquierda_Click(object sender, EventArgs e)
+        {
+            
+            pctScorpion.Location = new Point(pctScorpion.Location.X - 1, pctScorpion.Location.Y);
+        }
     }
 }
